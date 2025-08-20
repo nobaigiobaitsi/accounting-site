@@ -19,7 +19,7 @@ export default function Navbar() {
 
           {/* Desktop Menu */}
           <div className="hidden md:flex space-x-8 items-center">
-            <a href="#home" className="text-neutral-dark hover:text-brand-dark font-medium">
+            <a href="/" className="text-neutral-dark hover:text-brand-dark font-medium">
               Home
             </a>
             {/* <a href="#about" className="text-neutral-dark hover:text-brand-dark font-medium">
@@ -28,7 +28,7 @@ export default function Navbar() {
             {/* <a href="#services" className="text-neutral-dark hover:text-brand-dark font-medium">
               Services
             </a> */}
-            <a href="#contact" className="text-neutral-dark hover:text-brand-dark font-medium">
+            <a href="/contact" className="text-neutral-dark hover:text-brand-dark font-medium">
               Contact
             </a>
           </div>

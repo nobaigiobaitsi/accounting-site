@@ -1,9 +1,12 @@
+import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
 import logo01 from "../images/logo01.png";
 import OfficeSpace from '../images/OfficeSpace.png'
+
 export default function HomePage() {
   return (
     <>
-
+      <Navbar />
       {/* Hero Section */}
       <section className="bg-brand-light min-h-screen flex flex-col justify-center items-center text-center px-4">
         <img src={logo01} alt="Main Logo" className="mb-2" />
@@ -107,6 +110,7 @@ export default function HomePage() {
   </div>
 </section>
 
+<Footer />
 
       {/* Contact Section
       <section id="contact" className="bg-white py-20 px-4">
