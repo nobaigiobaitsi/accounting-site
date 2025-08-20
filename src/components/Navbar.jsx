@@ -9,10 +9,10 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16 items-center">
 
-          {/* Brand / Logo */}
+          {/* Brand + Logo */}
           <div className="flex items-center space-x-3 flex-shrink-0">
             <img src={logo01} alt="Logo" className="h-8" />
-            <h1 className="text-brand-dark font-heading text-2xl">
+            <h1 className="text-brand-dark font-heading text-2xl font-serif">
               Alpha Consultants
             </h1>
           </div>
@@ -22,12 +22,12 @@ export default function Navbar() {
             <a href="#home" className="text-neutral-dark hover:text-brand-dark font-medium">
               Home
             </a>
-            <a href="#about" className="text-neutral-dark hover:text-brand-dark font-medium">
+            {/* <a href="#about" className="text-neutral-dark hover:text-brand-dark font-medium">
               About
-            </a>
-            <a href="#services" className="text-neutral-dark hover:text-brand-dark font-medium">
+            </a> */}
+            {/* <a href="#services" className="text-neutral-dark hover:text-brand-dark font-medium">
               Services
-            </a>
+            </a> */}
             <a href="#contact" className="text-neutral-dark hover:text-brand-dark font-medium">
               Contact
             </a>

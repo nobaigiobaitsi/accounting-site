@@ -1,12 +1,12 @@
 import logo01 from "../images/logo01.png";
-
+import OfficeSpace from '../images/OfficeSpace.png'
 export default function HomePage() {
   return (
     <>
 
       {/* Hero Section */}
       <section className="bg-brand-light min-h-screen flex flex-col justify-center items-center text-center px-4">
-        <img src={logo01} alt="Hero Image" className="mb-4" />
+        <img src={logo01} alt="Main Logo" className="mb-2" />
         {/* <h1 className="text-5xl font-heading text-brand-dark mb-4">
           Trusted Accounting Services
         </h1> */}
@@ -34,7 +34,7 @@ export default function HomePage() {
           {/* Image Placeholder */}
           <div>
             <img
-              src="https://via.placeholder.com/500x300"
+              src={OfficeSpace}
               alt="Accounting office"
               className="rounded-xl shadow-card"
             />
@@ -52,21 +52,21 @@ export default function HomePage() {
         </div>
         <div className="max-w-7xl mx-auto grid md:grid-cols-3 gap-8">
           {/* Service Card */}
-          <div className="bg-white p-6 rounded-xl shadow-card text-center">
+          <div className="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition duration-300 text-center border-t-4 border-brand" style={{ borderTopColor: '#A71D40' }}>
             <h3 className="text-xl font-heading text-brand-dark mb-2">Bookkeeping</h3>
             <p className="text-neutral-dark">
               Accurate bookkeeping to keep your finances organized and up to date.
             </p>
           </div>
 
-          <div className="bg-white p-6 rounded-xl shadow-card text-center">
+          <div className="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition duration-300 text-center border-t-4 border-brand" style={{ borderTopColor: '#A71D40' }}>
             <h3 className="text-xl font-heading text-brand-dark mb-2">Tax Preparation</h3>
             <p className="text-neutral-dark">
               Professional tax filing and consulting to save you time and money.
             </p>
           </div>
 
-          <div className="bg-white p-6 rounded-xl shadow-card text-center">
+          <div className="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition duration-300 text-center border-t-4 border-brand" style={{ borderTopColor: '#A71D40' }}>
             <h3 className="text-xl font-heading text-brand-dark mb-2">Financial Consulting</h3>
             <p className="text-neutral-dark">
               Expert advice to help you make smarter financial decisions.
@@ -80,13 +80,13 @@ export default function HomePage() {
   <div className="max-w-7xl mx-auto text-center mb-12">
     <h2 className="text-3xl font-heading text-brand-dark mb-4">Contact Us</h2>
     <p className="text-neutral-dark max-w-2xl mx-auto">
-      Get in touch with us.
+      Get in touch with us and we will find the best solution for your problem.
     </p>
   </div>
 
   <div className="max-w-7xl mx-auto grid md:grid-cols-3 gap-8">
     {/* Address Card */}
-    <div className="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition duration-300 text-center border-t-4 border-brand">
+    <div className="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition duration-300 text-center border-t-4 border-brand" style={{ borderTopColor: '#0F4E8C' }}>
       <h3 className="text-xl font-heading text-brand-dark mb-2">Address</h3>
       <p className="text-neutral-dark">
         Anafis 12 Glifada, 16562, Attica, Greece
@@ -94,13 +94,13 @@ export default function HomePage() {
     </div>
 
     {/* Phone Card */}
-    <div className="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition duration-300 text-center border-t-4 border-brand">
+    <div className="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition duration-300 text-center border-t-4 border-brand" style={{ borderTopColor: '#0F4E8C' }}>
       <h3 className="text-xl font-heading text-brand-dark mb-2">Phone</h3>
       <p className="text-neutral-dark">+30 210 9604 322</p>
     </div>
 
     {/* LinkedIn / Email Card */}
-    <div className="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition duration-300 text-center border-t-4 border-brand">
+    <div className="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition duration-300 text-center border-t-4 border-brand" style={{ borderTopColor: '#0F4E8C' }}>
       <h3 className="text-xl font-heading text-brand-dark mb-2">LinkedIn</h3>
       <p className="text-neutral-dark">Alpha Consultants</p>
     </div>
