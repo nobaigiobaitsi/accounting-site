@@ -1,4 +1,5 @@
 import { useState } from "react";
+import logo01 from "../images/logo01.png";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -9,7 +10,8 @@ export default function Navbar() {
         <div className="flex justify-between h-16 items-center">
 
           {/* Brand / Logo */}
-          <div className="flex-shrink-0">
+          <div className="flex items-center space-x-3 flex-shrink-0">
+            <img src={logo01} alt="Logo" className="h-8" />
             <h1 className="text-brand-dark font-heading text-2xl">
               Alpha Consultants
             </h1>

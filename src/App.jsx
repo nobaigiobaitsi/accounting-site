@@ -1,12 +1,12 @@
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import HomePage from './pages/HomePage';
 
 function App() {
-
   return (
     <>
     <Navbar />
-    <div class="text-3xl font-bold underline">Tester div</div>
+    <HomePage />
     <Footer />
     </>
   )
