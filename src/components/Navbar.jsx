@@ -1,5 +1,6 @@
 import { useState } from "react";
 import logo01 from "../images/logo01.png";
+import { Link } from "react-router-dom";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -10,24 +11,20 @@ export default function Navbar() {
         <div className="flex justify-between h-16 items-center">
 
           {/* Brand + Logo */}
+          <Link to="/home">
           <div className="flex items-center space-x-3 flex-shrink-0">
             <img src={logo01} alt="Logo" className="h-9 border-white bg-white rounded-2xl px-3 py-1" />
             <h1 className="text-brand-dark font-heading text-2xl font-serif text-white">
               Alpha Consultants
             </h1>
           </div>
+          </Link>
 
           {/* Desktop Menu */}
           <div className="hidden md:flex space-x-8 items-center">
             <a href="/home" className="text-white font-medium drop-shadow-xs hover:font-bold">
               Home
             </a>
-            {/* <a href="#about" className="text-neutral-dark hover:text-brand-dark font-medium">
-              About
-            </a> */}
-            {/* <a href="#services" className="text-neutral-dark hover:text-brand-dark font-medium">
-              Services
-            </a> */}
             <a href="/contact" className="text-white font-medium drop-shadow-xs hover:font-bold">
               Contact
             </a>
@@ -55,12 +52,6 @@ export default function Navbar() {
           <a href="/home" className="block text-white font-medium drop-shadow-xs hover:font-bold">
             Home
           </a>
-          {/* <a href="#about" className="block text-neutral-dark hover:text-brand-dark font-medium">
-            About
-          </a>
-          <a href="#services" className="block text-neutral-dark hover:text-brand-dark font-medium">
-            Services
-          </a> */}
           <a href="/contact" className="block text-white font-medium drop-shadow-xs hover:font-bold">
             Contact
           </a>
