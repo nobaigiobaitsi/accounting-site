@@ -10,7 +10,7 @@ export default function EntryPage() {
         <img src={logo01} alt="Main Logo" className="w-3/4 max-w-[600px] mx-auto" />
         <Link to="/home">
           <button className="px-10 py-4 text-xl font-bold rounded-2xl shadow-lg
-                     bg-gradient-to-r from-[#A71D40] to-[#0F4E8C] text-white
+                     bg-gradient-to-b from-[#A71D40] to-[#0F4E8C] text-white
                      hover:scale-105 hover:shadow-2xl transition-all hover:from-[#0F4E8C] hover:to-[#A71D40] duration-300 ease-in-out">
             Enter
           </button>
