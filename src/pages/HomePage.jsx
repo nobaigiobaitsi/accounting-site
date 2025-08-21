@@ -21,7 +21,7 @@ export default function HomePage() {
       {/* </section> */}
 
       {/* About Section */}
-      <section id="about" className="bg-white py-20 px-4">
+      <section id="about" className="bg-gray-50 py-20 px-4">
         <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-10 items-center">
           {/* Text */}
           <div>

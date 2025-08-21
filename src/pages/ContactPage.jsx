@@ -21,7 +21,7 @@ export default function ContactPage() {
 
       {/* Contact Info Section */}
       <section id="contact" className="bg-gray-50 py-20 px-4">
-  <div className="max-w-7xl mx-auto md:grid md:grid-cols-1 gap-12 items-start">
+      <div className="max-w-7xl mx-auto md:grid md:grid-cols-1 gap-12 items-start">
     {/* Text Column */}
     <div className="text-center md:text-left mb-10 md:mb-0">
       <h2 className="text-3xl font-heading text-brand-dark mb-4">
@@ -84,7 +84,7 @@ export default function ContactPage() {
 </section>
 
       {/* Google Maps Section */}
-      <section className="bg-white py-20 px-4">
+      <section className="bg-gray-50 py-20 px-4">
         <div className="max-w-5xl mx-auto text-center mb-12">
           <h2 className="text-3xl font-heading text-brand-dark mb-4">
             Find Us Here
