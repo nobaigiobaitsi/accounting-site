@@ -89,7 +89,7 @@ export default function HomePage() {
     </p>
   </div>
 
-  <div className="max-w-7xl mx-auto grid md:grid-cols-3 gap-8">
+  <div className="max-w-7xl mx-auto grid md:grid-cols-4 gap-8">
     {/* Address Card */}
     <div className="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition duration-300 text-center border-t-4 border-brand" style={{ borderTopColor: '#0F4E8C' }}>
       <h3 className="text-xl font-heading text-brand-dark mb-2">Address</h3>
@@ -104,10 +104,19 @@ export default function HomePage() {
       <p className="text-neutral-dark">+30 210 9604 322</p>
     </div>
 
-    {/* LinkedIn / Email Card */}
+    {/* LinkedIn */}
     <div className="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition duration-300 text-center border-t-4 border-brand" style={{ borderTopColor: '#0F4E8C' }}>
       <h3 className="text-xl font-heading text-brand-dark mb-2">LinkedIn</h3>
-      <p className="text-neutral-dark">Alpha Consultants</p>
+      <a href="https://www.linkedin.com/company/accounting-alpha-consultants" className="text-neutral-dark hover:text-brand-dark font-medium">
+        Alpha Consultants
+      </a>
+    </div>
+    {/* Email Card */}
+    <div className="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition duration-300 text-center border-t-4 border-brand" style={{ borderTopColor: '#0F4E8C' }}>
+      <h3 className="text-xl font-heading text-brand-dark mb-2">Email</h3>
+      <a href="mailto:info@alcon.gr" className="text-neutral-dark hover:text-brand-dark font-medium">
+        info@alcon.gr
+      </a>
     </div>
   </div>
 </section>

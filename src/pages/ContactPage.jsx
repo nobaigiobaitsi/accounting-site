@@ -21,7 +21,7 @@ export default function ContactPage() {
 
       {/* Contact Info Section */}
       <section id="contact" className="bg-gray-50 py-20 px-4">
-  <div className="max-w-7xl mx-auto md:grid md:grid-cols-2 gap-12 items-start">
+  <div className="max-w-7xl mx-auto md:grid md:grid-cols-1 gap-12 items-start">
     {/* Text Column */}
     <div className="text-center md:text-left mb-10 md:mb-0">
       <h2 className="text-3xl font-heading text-brand-dark mb-4">
@@ -33,14 +33,14 @@ export default function ContactPage() {
     </div>
 
     {/* Cards Column */}
-    <div className="grid sm:grid-cols-3 gap-6">
+    <div className="grid sm:grid-cols-4 gap-8 ">
       {/* Address Card */}
       <div
         className="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition duration-300 text-center border-t-4"
         style={{ borderTopColor: "#0F4E8C" }}
       >
-        <h3 className="text-xl font-heading text-brand-dark mb-2">Address</h3>
-        <p className="text-neutral-dark">
+        <h3 className="text-xl font-heading text-center text-brand-dark mb-2">Address</h3>
+        <p className="text-neutral-dark text-center">
           Anafis 12 Glifada, 16562, Attica, Greece
         </p>
       </div>
@@ -50,8 +50,21 @@ export default function ContactPage() {
         className="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition duration-300 text-center border-t-4"
         style={{ borderTopColor: "#0F4E8C" }}
       >
-        <h3 className="text-xl font-heading text-brand-dark mb-2">Phone</h3>
-        <p className="text-neutral-dark">+30 210 9604 322</p>
+        <h3 className="text-xl font-heading text-center text-brand-dark mb-2">Phone</h3>
+        <p className="text-neutral-dark text-center">+30 210 9604 322</p>
+      </div>
+
+      {/* LinkedIn */}
+      <div
+        className="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition duration-300 text-center border-t-4"
+        style={{ borderTopColor: "#0F4E8C" }}
+      >
+        <h3 className="text-xl font-heading text-center text-brand-dark mb-2">LinkedIn</h3>
+        <p className="text-neutral-dark text-center">
+          <a href="https://www.linkedin.com/company/accounting-alpha-consultants" className="hover:text-brand-dark font-medium">
+            Alpha Consultants
+          </a>
+        </p>
       </div>
 
       {/* Email Card */}
@@ -59,8 +72,12 @@ export default function ContactPage() {
         className="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition duration-300 text-center border-t-4"
         style={{ borderTopColor: "#0F4E8C" }}
       >
-        <h3 className="text-xl font-heading text-brand-dark mb-2">Email</h3>
-        <p className="text-neutral-dark">info@alcon.gr</p>
+        <h3 className="text-xl font-heading text-center text-brand-dark mb-2">Email</h3>
+        <p className="text-neutral-dark text-center">
+          <a href="mailto:info@alcon.gr" className="hover:text-brand-dark font-medium">
+            info@alcon.gr
+          </a>
+        </p>
       </div>
     </div>
   </div>
