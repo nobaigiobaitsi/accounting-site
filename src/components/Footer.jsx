@@ -1,6 +1,7 @@
 export default function Footer() {
   return (
-    <footer className="bg-brand-dark text-gray-800 py-12">
+    <>
+    <footer className="bg-white text-gray-800 py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid md:grid-cols-4 gap-8">
 
         {/* About */}
@@ -43,10 +44,10 @@ export default function Footer() {
       </div>
 
       {/* Footer Bottom */}
-      <div className="mt-8 text-center text-gray-400 text-sm">
-        &copy; {new Date().getFullYear()} Alpha Consultants. All rights reserved.<br />
-        This site was created by Stavros Angelopoulos.
+      <div className="text-center text-gray-400 text-sm">
+        &copy; {new Date().getFullYear()} Alpha Consultants. All rights reserved.
       </div>
-    </footer>
+      </footer>
+</>
   );
 }

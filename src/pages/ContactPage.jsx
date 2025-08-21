@@ -1,12 +1,14 @@
-import logo01 from "../images/logo01.png";
+// import logo01 from "../images/logo01.png";
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
+import FadeContent from '../components/FadeContent/FadeContent';
 
 export default function ContactPage() {
   return (
     <>
+    <FadeContent>
       <Navbar />
-      {/* Hero Section */}
+      {/* Hero Section
       <section className="bg-brand-light min-h-[50vh] flex flex-col justify-center items-center text-center px-4">
         <img src={logo01} alt="Main Logo" className="mb-2" />
         <h1 className="text-4xl font-heading text-brand-dark mb-2">
@@ -15,50 +17,54 @@ export default function ContactPage() {
         <p className="text-neutral-dark max-w-xl">
           We’d love to hear from you. Reach out and let’s find the best solution for your needs.
         </p>
-      </section>
+      </section> */}
 
       {/* Contact Info Section */}
       <section id="contact" className="bg-gray-50 py-20 px-4">
-        <div className="max-w-7xl mx-auto text-center mb-12">
-          <h2 className="text-3xl font-heading text-brand-dark mb-4">
-            Get in Touch
-          </h2>
-          <p className="text-neutral-dark max-w-2xl mx-auto">
-            Here’s how you can reach us directly.
-          </p>
-        </div>
+  <div className="max-w-7xl mx-auto md:grid md:grid-cols-2 gap-12 items-start">
+    {/* Text Column */}
+    <div className="text-center md:text-left mb-10 md:mb-0">
+      <h2 className="text-3xl font-heading text-brand-dark mb-4">
+        Feel free to contact us
+      </h2>
+      <p className="text-neutral-dark max-w-md">
+        Here’s how you can reach us directly. We’re happy to answer any questions you may have.
+      </p>
+    </div>
 
-        <div className="max-w-7xl mx-auto grid md:grid-cols-3 gap-8">
-          {/* Address Card */}
-          <div
-            className="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition duration-300 text-center border-t-4"
-            style={{ borderTopColor: "#0F4E8C" }}
-          >
-            <h3 className="text-xl font-heading text-brand-dark mb-2">Address</h3>
-            <p className="text-neutral-dark">
-              Anafis 12 Glifada, 16562, Attica, Greece
-            </p>
-          </div>
+    {/* Cards Column */}
+    <div className="grid sm:grid-cols-3 gap-6">
+      {/* Address Card */}
+      <div
+        className="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition duration-300 text-center border-t-4"
+        style={{ borderTopColor: "#0F4E8C" }}
+      >
+        <h3 className="text-xl font-heading text-brand-dark mb-2">Address</h3>
+        <p className="text-neutral-dark">
+          Anafis 12 Glifada, 16562, Attica, Greece
+        </p>
+      </div>
 
-          {/* Phone Card */}
-          <div
-            className="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition duration-300 text-center border-t-4"
-            style={{ borderTopColor: "#0F4E8C" }}
-          >
-            <h3 className="text-xl font-heading text-brand-dark mb-2">Phone</h3>
-            <p className="text-neutral-dark">+30 210 9604 322</p>
-          </div>
+      {/* Phone Card */}
+      <div
+        className="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition duration-300 text-center border-t-4"
+        style={{ borderTopColor: "#0F4E8C" }}
+      >
+        <h3 className="text-xl font-heading text-brand-dark mb-2">Phone</h3>
+        <p className="text-neutral-dark">+30 210 9604 322</p>
+      </div>
 
-          {/* Email Card */}
-          <div
-            className="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition duration-300 text-center border-t-4"
-            style={{ borderTopColor: "#0F4E8C" }}
-          >
-            <h3 className="text-xl font-heading text-brand-dark mb-2">Email</h3>
-            <p className="text-neutral-dark">info@alcon.gr</p>
-          </div>
-        </div>
-      </section>
+      {/* Email Card */}
+      <div
+        className="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition duration-300 text-center border-t-4"
+        style={{ borderTopColor: "#0F4E8C" }}
+      >
+        <h3 className="text-xl font-heading text-brand-dark mb-2">Email</h3>
+        <p className="text-neutral-dark">info@alcon.gr</p>
+      </div>
+    </div>
+  </div>
+</section>
 
       {/* Google Maps Section */}
       <section className="bg-white py-20 px-4">
@@ -79,6 +85,7 @@ export default function ContactPage() {
         </div>
       </section>
       <Footer />
+      </FadeContent>
     </>
   );
 }
