@@ -52,7 +52,7 @@ export default function Navbar() {
       {/* Mobile Menu */}
       {isOpen && (
         <div className="md:hidden bg-[#0F4E8C] px-4 pt-2 pb-4 space-y-2 shadow-md">
-          <a href="#home" className="block text-white font-medium drop-shadow-xs hover:font-bold">
+          <a href="/home" className="block text-white font-medium drop-shadow-xs hover:font-bold">
             Home
           </a>
           {/* <a href="#about" className="block text-neutral-dark hover:text-brand-dark font-medium">
@@ -61,7 +61,7 @@ export default function Navbar() {
           <a href="#services" className="block text-neutral-dark hover:text-brand-dark font-medium">
             Services
           </a> */}
-          <a href="#contact" className="block text-white font-medium drop-shadow-xs hover:font-bold">
+          <a href="/contact" className="block text-white font-medium drop-shadow-xs hover:font-bold">
             Contact
           </a>
         </div>
