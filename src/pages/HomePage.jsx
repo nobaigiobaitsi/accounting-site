@@ -8,7 +8,7 @@ export default function HomePage() {
     <>
       <Navbar />
       {/* Hero Section */}
-      <section className="bg-brand-light min-h-screen flex flex-col justify-center items-center text-center px-4">
+      {/* <section className="bg-brand-light min-h-screen flex flex-col justify-center items-center text-center px-4">
         <img src={logo01} alt="Main Logo" className="mb-2" />
         {/* <h1 className="text-5xl font-heading text-brand-dark mb-4">
           Trusted Accounting Services
@@ -16,7 +16,7 @@ export default function HomePage() {
         {/* <p className="text-neutral-dark text-lg max-w-xl mb-6">
           Helping businesses and individuals with bookkeeping, tax preparation, and financial consulting for over 20 years.
         </p> */}
-      </section>
+      {/* </section> */}
 
       {/* About Section */}
       <section id="about" className="bg-white py-20 px-4">
