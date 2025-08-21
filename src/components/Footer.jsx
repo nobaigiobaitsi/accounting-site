@@ -1,3 +1,5 @@
+import { FaLinkedin, FaMailBulk, FaPhone, FaMapPin, FaHome, FaBars } from "react-icons/fa";
+
 export default function Footer() {
   return (
     <>
@@ -12,23 +14,28 @@ export default function Footer() {
           </p>
         </div>
 
-        {/* Quick Links */}
-        <div>
-          <h3 className="text-lg font-heading mb-4">Quick Links</h3>
-          <ul className="space-y-2">
-            <li><a href="/home" className="hover:text-brand-light transition">Home</a></li>
-            {/* <li><a href="#about" className="hover:text-brand-light transition">About</a></li> */}
-            {/* <li><a href="#services" className="hover:text-brand-light transition">Services</a></li> */}
-            <li><a href="/contact" className="hover:text-brand-light transition">Contact</a></li>
-          </ul>
-        </div>
+      {/* Quick Links */}
+      <div>
+        <h3 className="text-lg font-heading mb-4">Quick Links</h3>
+        <ul className="grid grid-cols-[auto_1fr] gap-x-2 gap-y-2">
+          <li className="contents">
+            <FaHome className="mt-1" />
+            <a href="/home" className="hover:text-brand-dark font-medium">Home</a>
+          </li>
+          <li className="contents">
+            <FaBars className="mt-1" />
+            <a href="/contact" className="hover:text-brand-dark font-medium">Contact</a>
+          </li>
+        </ul>
+      </div>
 
         {/* Contact Info */}
-        <div>
-          <h3 className="text-lg font-heading mb-4">Contact Us</h3>
-          <p className="text-gray-800">📍 Anafis 12, Glifada 165 62, Attica, Greece</p>
-          <p className="text-gray-800">📞 +30 210 960 4322</p>
-          <p className="text-gray-800">✉ info@alcon.gr</p>
+        <div className="grid grid-cols-[auto_1fr] gap-x-2">
+          <h3 className="text-lg font-heading mb-4 col-span-2">Contact Us</h3>
+          <FaMapPin className="mt-1" /><p className="text-gray-800">Anafis 12, Glifada 165 62, Attica, Greece</p>
+          <FaPhone /><p className="text-gray-800">+30 210 960 4322</p>
+          <FaMailBulk /><p className="text-gray-800"><a href="mailto:info@alcon.gr" className="hover:text-brand-dark font-medium">info@alcon.gr</a></p>
+          <FaLinkedin /><p className="text-gray-800"><a href="https://www.linkedin.com/company/accounting-alpha-consultants" className="hover:text-brand-dark font-medium">LinkedIn</a></p>
         </div>
         <div>
           <iframe
