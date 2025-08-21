@@ -1,6 +1,6 @@
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
-import logo01 from "../images/logo01.png";
+// import logo01 from "../images/logo01.png";
 import OfficeSpace from '../images/OfficeSpace.png'
 
 export default function HomePage() {

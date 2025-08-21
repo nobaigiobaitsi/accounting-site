@@ -9,7 +9,9 @@ export default function EntryPage() {
       <div className="flex flex-col items-center justify-center h-screen bg-white">
         <img src={logo01} alt="Main Logo" className="w-3/4 max-w-[600px] mx-auto" />
         <Link to="/home">
-          <button className="px-6 py-3 bg-brand text-black font-semibold rounded-xl shadow-lg">
+          <button className="px-10 py-4 text-xl font-bold rounded-2xl shadow-lg
+                     bg-gradient-to-r from-[#A71D40] to-[#0F4E8C] text-white
+                     hover:scale-105 hover:shadow-2xl transition-all hover:from-[#0F4E8C] hover:to-[#A71D40] duration-300 ease-in-out">
             Enter
           </button>
         </Link>
