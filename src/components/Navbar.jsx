@@ -19,7 +19,7 @@ export default function Navbar() {
 
           {/* Desktop Menu */}
           <div className="hidden md:flex space-x-8 items-center">
-            <a href="/" className="text-white font-medium drop-shadow-xs hover:font-bold">
+            <a href="/home" className="text-white font-medium drop-shadow-xs hover:font-bold">
               Home
             </a>
             {/* <a href="#about" className="text-neutral-dark hover:text-brand-dark font-medium">
