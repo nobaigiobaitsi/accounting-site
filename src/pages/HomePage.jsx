@@ -2,10 +2,12 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 // import logo01 from "../images/logo01.png";
 import OfficeSpace from '../images/OfficeSpace.png'
+import FadeContent from '../components/FadeContent/FadeContent'
 
 export default function HomePage() {
   return (
     <>
+    <FadeContent>
       <Navbar />
       {/* Hero Section */}
       {/* <section className="bg-brand-light min-h-screen flex flex-col justify-center items-center text-center px-4">
@@ -111,6 +113,7 @@ export default function HomePage() {
 </section>
 
 <Footer />
+</FadeContent>
 
       {/* Contact Section
       <section id="contact" className="bg-white py-20 px-4">
