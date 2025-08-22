@@ -35,7 +35,7 @@ export default function Footer() {
           <FaMapPin className="mt-1" /><p className="text-gray-800">Anafis 12, Glifada 165 62, Attica, Greece</p>
           <FaPhone /><p className="text-gray-800">+30 210 960 4322</p>
           <FaMailBulk /><p className="text-gray-800"><a href="mailto:info@alcon.gr" className="hover:text-brand-dark font-medium">info@alcon.gr</a></p>
-          <FaLinkedin /><p className="text-gray-800"><a href="https://www.linkedin.com/company/accounting-alpha-consultants" className="hover:text-brand-dark font-medium">LinkedIn</a></p>
+          <FaLinkedin /><p className="text-gray-800"><a href="https://www.linkedin.com/company/accounting-alpha-consultants" target="_blank" rel="noopener noreferrer" className="hover:text-brand-dark font-medium">LinkedIn</a></p>
         </div>
         <div>
           <iframe

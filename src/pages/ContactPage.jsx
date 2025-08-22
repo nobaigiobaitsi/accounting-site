@@ -61,7 +61,7 @@ export default function ContactPage() {
       >
         <h3 className="text-xl font-heading text-center text-brand-dark mb-2">LinkedIn</h3>
         <p className="text-neutral-dark text-center">
-          <a href="https://www.linkedin.com/company/accounting-alpha-consultants" className="hover:text-brand-dark font-medium">
+          <a href="https://www.linkedin.com/company/accounting-alpha-consultants" target="_blank" rel="noopener noreferrer" className="hover:text-brand-dark font-medium">
             Alpha Consultants
           </a>
         </p>

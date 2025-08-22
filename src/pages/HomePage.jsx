@@ -107,7 +107,7 @@ export default function HomePage() {
     {/* LinkedIn */}
     <div className="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition duration-300 text-center border-t-4 border-brand" style={{ borderTopColor: '#0F4E8C' }}>
       <h3 className="text-xl font-heading text-brand-dark mb-2">LinkedIn</h3>
-      <a href="https://www.linkedin.com/company/accounting-alpha-consultants" className="text-neutral-dark hover:text-brand-dark font-medium">
+      <a href="https://www.linkedin.com/company/accounting-alpha-consultants" target="_blank" rel="noopener noreferrer" className="text-neutral-dark hover:text-brand-dark font-medium">
         Alpha Consultants
       </a>
     </div>
